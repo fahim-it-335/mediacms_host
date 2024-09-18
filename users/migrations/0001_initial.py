@@ -93,7 +93,7 @@ class Migration(migrations.Migration):
                         upload_to="userlogos/%Y/%m/%d",
                     ),
                 ),
-                ("description", models.TextField(blank=True, verbose_name="About me")),
+                ("description", models.TextField(blank=True, verbose_name="دەربارە me")),
                 (
                     "name",
                     models.CharField(db_index=True, max_length=250, verbose_name="full name"),

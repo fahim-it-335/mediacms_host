@@ -49,7 +49,7 @@ export function SidebarNavigationMenu() {
       items.push({
         link: links.home,
         icon: 'home',
-        text: 'Home',
+        text: 'سەرکی',
         className: 'nav-item-home',
       });
     }

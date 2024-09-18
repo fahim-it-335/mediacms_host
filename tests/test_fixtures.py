@@ -16,7 +16,7 @@ class TestFixtures(TestCase):
         categories = Category.objects.filter().order_by('id')
         self.assertEqual(
             categories.first().title,
-            'Art',
+            'فێرکاری',
             "Problem with category fixtures",
         )
 

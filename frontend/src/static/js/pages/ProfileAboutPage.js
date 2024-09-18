@@ -118,7 +118,7 @@ class ChannelContactForm extends React.PureComponent {
     return (
       <div className="media-list-row profile-contact">
         <div className="media-list-header">
-          <h2>Contact</h2>
+          <h2>پەیوەندی</h2>
         </div>
         <form method="post" className={'user-contact-form' + (this.state.isSending ? ' pending-response' : '')}>
           <span>

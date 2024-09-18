@@ -13,7 +13,7 @@ class FasterDjangoPaginator(Paginator):
 
 
 class FastPaginationWithoutCount(PageNumberPagination):
-    """Experimental, for cases where a SELECT COUNT is redundant"""
+    """گشتی, for cases where a SELECT COUNT is redundant"""
 
     django_paginator_class = FasterDjangoPaginator
 

@@ -66,7 +66,7 @@ export function init(home, search, media, profile, VALID_PAGES) {
   }
 
   if ('' === PAGES.home.sections.featured.title) {
-    PAGES.home.sections.featured.title = void 0 !== VALID_PAGES.featured ? VALID_PAGES.featured.title : 'Featured';
+    PAGES.home.sections.featured.title = void 0 !== VALID_PAGES.featured ? VALID_PAGES.featured.title : 'تایبەتمەند';
   }
 
   if ('' === PAGES.home.sections.recommended.title) {

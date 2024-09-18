@@ -315,7 +315,7 @@ class NavMenuInlineTabs extends React.PureComponent {
             <InlineTab
               id="about"
               isActive={'about' === this.props.type}
-              label={'About' + (this.userIsAuthor ? ' Me' : '')}
+              label={'دەربارە' + (this.userIsAuthor ? ' Me' : '')}
               link={LinksContext._currentValue.profile.about}
             />
             <InlineTab

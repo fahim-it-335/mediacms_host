@@ -22,10 +22,10 @@ module.exports = {
   },
   pages: {
     latest: {
-      title: 'Recent uploads',
+      title: 'بلاوکراوەی نوێ',
     },
     featured: {
-      title: 'Featured',
+      title: 'تایبەتمەند',
     },
     recommended: {
       title: 'پێشنیارکراو',
@@ -36,15 +36,15 @@ module.exports = {
   },
   userPages: {
     liked: {
-      title: 'Liked media',
+      title: 'میدیای دلخوازراو',
     },
     history: {
-      title: 'History',
+      title: 'مێژوو',
     },
   },
   taxonomies: {
     tags: {
-      title: 'Tags',
+      title: 'تاگەکان',
     },
     categories: {
       title: 'Categories',

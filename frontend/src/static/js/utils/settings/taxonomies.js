@@ -4,7 +4,7 @@ export function init(settings) {
   TAXONOMIES = {
     tags: {
       enabled: false,
-      title: 'Tags',
+      title: 'تاگەکان',
     },
     categories: {
       enabled: false,

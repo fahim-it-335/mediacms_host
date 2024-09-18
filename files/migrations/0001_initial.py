@@ -474,7 +474,7 @@ class Migration(migrations.Migration):
                 ),
                 (
                     "user_featured",
-                    models.BooleanField(default=False, help_text="Featured by the user"),
+                    models.BooleanField(default=False, help_text="تایبەتمەند by the user"),
                 ),
                 ("video_height", models.IntegerField(default=1)),
                 ("views", models.IntegerField(db_index=True, default=1)),

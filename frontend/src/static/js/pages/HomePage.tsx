@@ -117,7 +117,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
 
                 
-            {['Art', 'Documentary', 'Experimental', 'Film', 'Music', 'TV'].map(category => {
+            {['فێرکاری', 'دیکۆمێنتاری', 'گشتی', 'فیلم و سریال', 'موزیک', 'مندالان'].map(category => {
               const requestUrl = `${apiUrl.search.query}&c=${category}`; // Ensure this URL is correctly formed
               const viewAllLink = `/search?c=${category}`; 
               

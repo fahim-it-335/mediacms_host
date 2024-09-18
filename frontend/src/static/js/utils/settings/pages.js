@@ -4,11 +4,11 @@ export function init(settings) {
   PAGES = {
     latest: {
       enabled: false,
-      title: 'Recent uploads',
+      title: 'بلاوکراوەی نوێ',
     },
     featured: {
       enabled: false,
-      title: 'Featured',
+      title: 'تایبەتمەند',
     },
     recommended: {
       enabled: false,
@@ -20,11 +20,11 @@ export function init(settings) {
     },
     liked: {
       enabled: false,
-      title: 'Liked media',
+      title: 'میدیای دلخوازراو',
     },
     history: {
       enabled: false,
-      title: 'History',
+      title: 'مێژوو',
     },
   };
 

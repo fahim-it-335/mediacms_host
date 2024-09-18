@@ -613,7 +613,7 @@ checkElement('.nav-menu')
         //if signed out use 3rd nav-menu
         var elem = document.querySelector(".nav-menu:nth-child(3) nav ul");
         var loc = elem.innerText;
-        if (loc.includes("About")){
+        if (loc.includes("دەربارە")){
           elem.insertBefore(listItem, elem.children[2]);
         } else { //if signed in use 4th nav-menu
           elem = document.querySelector(".nav-menu:nth-child(4) nav ul");

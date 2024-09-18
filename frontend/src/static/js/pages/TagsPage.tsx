@@ -9,7 +9,7 @@ interface TagsPageProps {
   title?: string;
 }
 
-export const TagsPage: React.FC<TagsPageProps> = ({ id = 'tags', title = 'Tags' }) => (
+export const TagsPage: React.FC<TagsPageProps> = ({ id = 'tags', title = 'تاگەکان' }) => (
   <Page id={id}>
     <ApiUrlConsumer>
       {(apiUrl) => (

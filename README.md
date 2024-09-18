@@ -38,7 +38,7 @@ A demo is available at https://demo.mediacms.io
 - **Multiple transcoding profiles**: sane defaults for multiple dimensions (240p, 360p, 480p, 720p, 1080p) and multiple profiles (h264, h265, vp9)
 - **Adaptive video streaming**: possible through HLS protocol
 - **Subtitles/CC**: support for multilingual subtitle files
-- **Scalable transcoding**: transcoding through priorities. Experimental support for remote workers
+- **Scalable transcoding**: transcoding through priorities. گشتی support for remote workers
 - **Chunked file uploads**: for pausable/resumable upload of content
 - **REST API**: Documented through Swagger
 
@@ -69,7 +69,7 @@ Copyright Markos Gogoulos.
 
 ## Support and paid services
 
-We provide custom installations, development of extra functionality, migration from existing systems, integrations with legacy systems, training and support. Contact us at info@mediacms.io for more information.
+We provide custom installations, development of extra functionality, migration from existing systems, integrations with legacy systems, training and support. پەیوەندی us at info@mediacms.io for more information.
 
 
 
@@ -135,6 +135,6 @@ If you like the project, here's a few things you can do
 - Add functionality, work on a PR, fix an issue!
 
 
-## Contact
+## پەیوەندی
 
 info@mediacms.io

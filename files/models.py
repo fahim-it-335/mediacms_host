@@ -279,7 +279,7 @@ class Media(models.Model):
 
     user = models.ForeignKey("users.User", on_delete=models.CASCADE, help_text="user that uploads the media")
 
-    user_featured = models.BooleanField(default=False, help_text="Featured by the user")
+    user_featured = models.BooleanField(default=False, help_text="تایبەتمەند by the user")
 
     video_height = models.IntegerField(default=1)
 

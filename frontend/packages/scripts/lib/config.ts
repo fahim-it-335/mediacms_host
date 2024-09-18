@@ -48,7 +48,7 @@ export interface ConfigPage{
 const homePage: ConfigPage = {
 	staticPage: true,
 	buildExclude: false,
-	title: 'Home',
+	title: 'سەرکی',
 	filename: 'index.html',
 	html: {
 		head: {},

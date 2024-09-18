@@ -5,17 +5,17 @@ module.exports = {
   sidebar: {
     navMenuItems: [
       {
-        text: 'About',
+        text: 'دەربارە',
         link: './about.html',
         icon: 'contact_support',
       },
       {
-        text: 'Terms',
+        text: 'مەرجەکان',
         link: './terms.html',
         icon: 'description',
       },
       {
-        text: 'Contact',
+        text: 'پەیوەندی',
         link: './contact.html',
         icon: 'alternate_email',
       },

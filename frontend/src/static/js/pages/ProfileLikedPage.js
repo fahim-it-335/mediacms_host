@@ -62,5 +62,5 @@ ProfileLikedPage.propTypes = {
 };
 
 ProfileLikedPage.defaultProps = {
-  title: 'Liked media',
+  title: 'میدیای دلخوازراو',
 };

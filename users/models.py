@@ -36,7 +36,7 @@ class User(AbstractUser):
         options={"quality": 75},
         blank=True,
     )
-    description = models.TextField("About me", blank=True)
+    description = models.TextField("دەربارە me", blank=True)
 
     name = models.CharField("full name", max_length=250, db_index=True)
     date_added = models.DateTimeField("date added", default=timezone.now, db_index=True)

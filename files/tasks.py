@@ -449,7 +449,7 @@ def create_hls(friendly_token):
 
 @task(name="check_running_states", queue="short_tasks")
 def check_running_states():
-    # Experimental - unused
+    # گشتی - unused
     """Check stale running encodings and delete/reencode media"""
 
     encodings = Encoding.objects.filter(status="running")
@@ -477,7 +477,7 @@ def check_running_states():
 
 @task(name="check_media_states", queue="short_tasks")
 def check_media_states():
-    # Experimental - unused
+    # گشتی - unused
     # check encoding status of not success media
     media = Media.objects.filter(Q(encoding_status="running") | Q(encoding_status="fail") | Q(encoding_status="pending"))
 
@@ -495,7 +495,7 @@ def check_media_states():
 
 @task(name="check_pending_states", queue="short_tasks")
 def check_pending_states():
-    # Experimental - unused
+    # گشتی - unused
     # check encoding profiles that are on state pending and not on a queue
     encodings = Encoding.objects.filter(status="pending")
 
@@ -530,7 +530,7 @@ def check_pending_states():
 
 @task(name="check_missing_profiles", queue="short_tasks")
 def check_missing_profiles():
-    # Experimental - unused
+    # گشتی - unused
 
     # check if video files have missing profiles. If so, add them
     media = Media.objects.filter(media_type="video")
@@ -673,7 +673,7 @@ def save_user_action(user_or_session, friendly_token=None, action="watch", extra
 
 @task(name="get_list_of_popular_media", queue="long_tasks")
 def get_list_of_popular_media():
-    """Experimental task for preparing media listing
+    """گشتی task for preparing media listing
     for index page / recommended section
     calculate and return the top 50 popular media, based on two rules
     X = the top 25 videos that have the most views during the last week
@@ -726,7 +726,7 @@ def update_listings_thumbnails():
             saved += 1
     logger.info("updated {} categories".format(saved))
 
-    # Tags
+    # تاگەکان
     used_media = []
     saved = 0
     qs = Tag.objects.filter().order_by("-media_count")

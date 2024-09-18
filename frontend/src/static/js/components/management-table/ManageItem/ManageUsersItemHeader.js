@@ -45,7 +45,7 @@ export function ManageUsersItemHeader(props) {
       {props.has_roles ? <div className="mi-role">Role</div> : null}
       {props.has_verified ? <div className="mi-verified">Verified</div> : null}
       {props.has_trusted ? <div className="mi-trusted">Trusted</div> : null}
-      <div className="mi-featured">Featured</div>
+      <div className="mi-featured">تایبەتمەند</div>
     </div>
   );
 }

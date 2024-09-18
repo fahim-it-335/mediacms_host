@@ -68,7 +68,7 @@ VALID_USER_ACTIONS = [action for action, name in USER_MEDIA_ACTIONS]
 
 
 def about(request):
-    """About view"""
+    """دەربارە view"""
 
     context = {}
     return render(request, "cms/about.html", context)
@@ -107,7 +107,7 @@ def categories(request):
 
 
 def contact(request):
-    """Contact view"""
+    """پەیوەندی view"""
 
     context = {}
     if request.method == "GET":
@@ -125,7 +125,7 @@ def contact(request):
                 name = request.POST.get("name")
             message = request.POST.get("message")
 
-            title = "[{}] - Contact form message received".format(settings.PORTAL_NAME)
+            title = "[{}] - پەیوەندی form message received".format(settings.PORTAL_NAME)
 
             msg = """
 You have received a message through the contact form\n
@@ -310,7 +310,7 @@ def tags(request):
 
 
 def tos(request):
-    """Terms of service view"""
+    """مەرجەکان of service view"""
 
     context = {}
     return render(request, "cms/tos.html", context)
@@ -1014,7 +1014,7 @@ class PlaylistDetail(APIView):
 
 
 class EncodingDetail(APIView):
-    """Experimental. This View is used by remote workers
+    """گشتی. This View is used by remote workers
     Needs heavy testing and documentation.
     """
 
@@ -1353,8 +1353,8 @@ class TagList(APIView):
         manual_parameters=[
             openapi.Parameter(name='page', type=openapi.TYPE_INTEGER, in_=openapi.IN_QUERY, description='Page number'),
         ],
-        tags=['Tags'],
-        operation_summary='Lists Tags',
+        tags=['تاگەکان'],
+        operation_summary='Lists تاگەکان',
         operation_description='Paginated listing of all tags',
         responses={
             200: openapi.Response('response description', TagSerializer),

@@ -14044,7 +14044,7 @@ var SeekBar = /*#__PURE__*/function (_Slider) {
    * Supports the following keys:
    *
    *   Space or Enter key fire a click event
-   *   Home key moves to start of the timeline
+   *   سەرکی key moves to start of the timeline
    *   End key moves to end of the timeline
    *   Digit "0" through "9" keys move to 0%, 10% ... 80%, 90% of the timeline
    *   PageDown key moves back a larger step than ArrowDown
@@ -14064,7 +14064,7 @@ var SeekBar = /*#__PURE__*/function (_Slider) {
       event.preventDefault();
       event.stopPropagation();
       this.handleAction(event);
-    } else if (keycode__default['default'].isEventKey(event, 'Home')) {
+    } else if (keycode__default['default'].isEventKey(event, 'سەرکی')) {
       event.preventDefault();
       event.stopPropagation();
       this.userSeek_(0);
@@ -38669,7 +38669,7 @@ var workerCode$1 = transform(getWorkerString(function () {
       var halfSecond = 45000,
           // Half-a-second in a 90khz clock
       allowableOverlap = 10000,
-          // About 3 frames @ 30fps
+          // دەربارە 3 frames @ 30fps
       nearestDistance = Infinity,
           dtsDistance,
           nearestGopObj,

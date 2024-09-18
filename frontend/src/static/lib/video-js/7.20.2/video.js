@@ -16517,7 +16517,7 @@
      * Supports the following keys:
      *
      *   Space or Enter key fire a click event
-     *   Home key moves to start of the timeline
+     *   سەرکی key moves to start of the timeline
      *   End key moves to end of the timeline
      *   Digit "0" through "9" keys move to 0%, 10% ... 80%, 90% of the timeline
      *   PageDown key moves back a larger step than ArrowDown
@@ -16537,7 +16537,7 @@
         event.preventDefault();
         event.stopPropagation();
         this.handleAction(event);
-      } else if (keycode.isEventKey(event, 'Home')) {
+      } else if (keycode.isEventKey(event, 'سەرکی')) {
         event.preventDefault();
         event.stopPropagation();
         this.userSeek_(0);
@@ -31664,7 +31664,7 @@
    * interpretation. Comments similarly have a single additional property
    * `text` which is the input without the leading `#`.
    *
-   * Tags always have a property `tagType` which is the lower-cased version of
+   * تاگەکان always have a property `tagType` which is the lower-cased version of
    * the M3U8 directive without the `#EXT` or `#EXT-X-` prefix. For instance,
    * `#EXT-X-MEDIA-SEQUENCE` becomes `media-sequence` when parsed. Unrecognized
    * tags are given the tag type `unknown` and a single additional property
@@ -31746,7 +31746,7 @@
         // doesn't have to account for them.
 
 
-        newLine = newLine.replace('\r', ''); // Tags
+        newLine = newLine.replace('\r', ''); // تاگەکان
 
         match = /^#EXTM3U/.exec(newLine);
 
@@ -50195,7 +50195,7 @@
         var halfSecond = 45000,
             // Half-a-second in a 90khz clock
         allowableOverlap = 10000,
-            // About 3 frames @ 30fps
+            // دەربارە 3 frames @ 30fps
         nearestDistance = Infinity,
             dtsDistance,
             nearestGopObj,

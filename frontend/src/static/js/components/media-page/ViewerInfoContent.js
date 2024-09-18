@@ -195,7 +195,7 @@ export default function ViewerInfoContent(props) {
             </button>
           ) : null}
           {tagsContent.length ? (
-            <MediaMetaField value={tagsContent} title={1 < tagsContent.length ? 'Tags' : 'Tag'} id="tags" />
+            <MediaMetaField value={tagsContent} title={1 < tagsContent.length ? 'تاگەکان' : 'Tag'} id="tags" />
           ) : null}
           {categoriesContent.length ? (
             <MediaMetaField

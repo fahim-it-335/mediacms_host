@@ -157,8 +157,8 @@ def edit_channel(request, friendly_token):
     methods=['post'],
     manual_parameters=[],
     tags=['Users'],
-    operation_summary='Contact user',
-    operation_description='Contact user through email, if user has set this option',
+    operation_summary='پەیوەندی user',
+    operation_description='پەیوەندی user through email, if user has set this option',
 )
 @api_view(["POST"])
 def contact_user(request, username):
