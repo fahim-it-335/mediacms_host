@@ -245,7 +245,7 @@ const DEV_ONLY_STATIC_PAGES = {
   contact: {
     buildExclude: true,
     id: 'contact',
-    title: 'پەیوەندی us',
+    title: 'Contact us',
     renderer: templates.renderBase(),
     snippet: templates.static.contactPage(),
   },
